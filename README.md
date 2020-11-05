@@ -16,7 +16,7 @@ The action automatically updates the task list when referenced issue is closed (
 
 - **`github-token`**  
   the GitHub token secret (use `${{secrets.GITHUB_TOKEN}}` in action YAML)  
-  _required_
+  _required_ - this token is automatically created for each workflow run, see: [https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow](here)
 - **`epic-label-name`**  
   name of the label you want to use for epic issues  
   _default: `epic`_
