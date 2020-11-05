@@ -34,7 +34,7 @@ jobs:
     name: Update epic issues
     steps:
       - name: Run epics action
-        uses: cloudaper/epics-action@v1
+        uses: RealDyllon/epics-action@v1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           epic-label-name: feature
